@@ -79,7 +79,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://widget-feedback-next.vercel.app/",
+    url: "https://embedded-feedback.vercel.app/",
     title: "Feedback Widget - Embedded User Feedback Collection Tool",
     description:
       "A modern, reusable full-stack feedback widget built with Next.js, React, Tailwind CSS, and Prisma. Easily embed this widget into any project to collect user feedback.",
@@ -102,9 +102,9 @@ export const metadata: Metadata = {
     creator: "@arnob_mahmud",
   },
   alternates: {
-    canonical: "https://widget-feedback-next.vercel.app/",
+    canonical: "https://embedded-feedback.vercel.app/",
   },
-  metadataBase: new URL("https://widget-feedback-next.vercel.app/"),
+  metadataBase: new URL("https://embedded-feedback.vercel.app/"),
   category: "technology",
 };
 

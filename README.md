@@ -8,7 +8,7 @@ A modern, reusable full-stack feedback widget built with Next.js, React, Tailwin
 
 ## Live Demo & Integration
 
-- **Live Widget:** [https://widget-feedback-next.vercel.app/](https://widget-feedback-next.vercel.app/)
+- **Live Widget:** [https://embedded-feedback.vercel.app/](https://embedded-feedback.vercel.app/)
 - **Integrated Example:** [https://marketing-arnob.netlify.app/](https://marketing-arnob.netlify.app/)
 - **Integration Repo:** [Marketing--TailwindCSS-Fundamental-Project-2](https://github.com/arnobt78/Marketing--TailwindCSS-Fundamental-Project-2)
 
@@ -192,9 +192,9 @@ You can embed the feedback widget into any HTML page (including other projects) 
 <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 <!-- Include the widget script from your Vercel deployment -->
-<script src="https://widget-feedback-next.vercel.app/widget.umd.js"></script>
+<script src="https://embedded-feedback.vercel.app/widget.umd.js"></script>
 <my-widget
-  api-base="https://widget-feedback-next.vercel.app/api/feedback"
+  api-base="https://embedded-feedback.vercel.app/api/feedback"
 ></my-widget>
 ```
 
